@@ -1,0 +1,4 @@
+node_modules/
+vendor/
+WorkflowIntegration.node
+*.log
