@@ -1,0 +1,12 @@
+{
+  "shell": "cmd.exe",
+  "command": "opencode",
+  "cwd": null,
+  "panelFraction": 0.2,
+  "collapsedWidth": 46,
+  "startExpanded": true,
+  "resizeResolve": true,
+  "alwaysOnTop": true,
+  "fontSize": 13,
+  "scrollback": 5000
+}
