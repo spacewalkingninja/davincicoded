@@ -1,0 +1,16 @@
+{
+  "name": "opencode-resolve-terminal",
+  "productName": "OpenCode Terminal for DaVinci Resolve",
+  "version": "1.0.0",
+  "description": "Embedded OpenCode chat terminal panel for DaVinci Resolve.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "node install.js"
+  },
+  "dependencies": {
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/xterm": "^5.5.0",
+    "node-pty": "^1.1.0"
+  }
+}
