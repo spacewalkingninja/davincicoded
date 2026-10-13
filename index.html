@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' file:; style-src 'self' 'unsafe-inline' file:; script-src 'self' file:; img-src 'self' data: file:;" />
+  <title>OpenCode</title>
+  <link rel="stylesheet" href="./vendor/xterm.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body class="collapsed">
+
+  <div id="ribbon">
+    <button id="openBtn" class="ribbon-btn" title="Open Chat">
+      <span class="ribbon-glyph">&gt;_</span>
+      <span class="ribbon-text">Open&nbsp;Chat</span>
+    </button>
+  </div>
+
+  <section id="panel">
+    <header id="titlebar">
+      <span class="brand-dot"></span>
+      <span class="brand">OpenCode</span>
+      <span class="status" id="status">ready</span>
+      <span class="spacer"></span>
+      <button id="restartBtn" class="icon-btn" title="Restart session">&#x21bb;</button>
+      <button id="collapseBtn" class="icon-btn" title="Collapse panel">&#x2039;</button>
+      <button id="closeBtn" class="icon-btn" title="Close panel">&#x2715;</button>
+    </header>
+    <div id="terminal"></div>
+  </section>
+
+  <script src="./vendor/xterm.js"></script>
+  <script src="./vendor/addon-fit.js"></script>
+  <script src="./renderer.js"></script>
+</body>
+</html>
